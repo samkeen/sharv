@@ -1,2 +1,10 @@
-# sharvaa
-Simple HAR Viewer and Archiver
+# sharv
+Simple HAR Viewer
+
+# Install
+
+```
+npm install
+
+node
+```

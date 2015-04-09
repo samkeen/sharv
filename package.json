@@ -1,0 +1,27 @@
+{
+  "name": "sharv",
+  "version": "1.0.0",
+  "description": "simple HAR viewer",
+  "main": "index.js",
+  "dependencies": {
+    "hapi": "^8.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samkeen/sharv.git"
+  },
+  "keywords": [
+    "HAR",
+    "node"
+  ],
+  "author": "sam keen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samkeen/sharv/issues"
+  },
+  "homepage": "https://github.com/samkeen/sharv"
+}
