@@ -4,6 +4,7 @@
   "description": "simple HAR viewer",
   "main": "index.js",
   "dependencies": {
+    "handlebars": "^3.0.1",
     "hapi": "^8.4.0"
   },
   "devDependencies": {},
