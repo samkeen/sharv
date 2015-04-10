@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "handlebars": "^3.0.1",
-    "hapi": "^8.4.0"
+    "hapi": "^8.4.0",
+    "node-uuid": "^1.4.3",
+    "rethinkdb": "^1.16.2"
   },
   "devDependencies": {},
   "scripts": {
