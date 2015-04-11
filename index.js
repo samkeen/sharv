@@ -15,6 +15,9 @@ server.connection({
     host: "localhost"
 });
 
+var app_name = 'sharv';
+var app_url = server.info.uri;
+
 server.views({
     engines: {
         html: require("handlebars")
@@ -49,7 +52,12 @@ server.route({
             console.log(JSON.stringify(result, null, 2));
         });
 
-        reply.view('index', {title: 'sharv', body: uuid.v1(), "payload": JSON.stringify(request.payload)});
+        reply.view('har_accepted', {
+            app_url: app_url,
+            app_name: app_name,
+            har_id: harId,
+            har_payload: JSON.stringify(request.payload)
+        });
     }
 });
 
