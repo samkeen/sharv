@@ -6,5 +6,5 @@ Simple HAR Viewer
 ```
 npm install
 
-node
+node index.js
 ```
