@@ -1,5 +1,5 @@
 # sharv
-Simple HAR Viewer
+Simple proof of concept HAR Viewer
 
 # Install
 
